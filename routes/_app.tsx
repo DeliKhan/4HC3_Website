@@ -8,7 +8,7 @@ export default function App({ Component }: PageProps) {
         <title>4HC3_Website</title>
         <link rel="stylesheet" href="/styles.css" />
       </head>
-      <body>
+      <body className="h-screen bg-paint-sidebar">
         <Component />
       </body>
     </html>
